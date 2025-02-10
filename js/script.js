@@ -93,7 +93,7 @@ button04.addEventListener("click", function () {
 
 
       } else {
-        let chanceLeft = document.querySelector(".ChanceLeft")
+        let chanceLeft = document.querySelector(".chanceLeft")
         chance = chance - 1
         chanceLeft.innerHTML = `Chance left: ${chance}`
         INPUT04.value = ""
